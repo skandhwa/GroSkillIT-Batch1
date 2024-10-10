@@ -1,0 +1,32 @@
+
+
+
+
+
+1> For Our Project 
+
+These are different folders being present 
+
+We have a Resources folder which contains feature files ,(written in given,when,then)
+Corresponding to the feature file we also have a step definition file ,This step definition implements the feature 
+
+We also have a Utilities folder that contains multiple reusable methods like 
+
+Fetching Data from Excel ,Database . 
+Converting raw to Json
+Getting Data from the property file 
+
+Also we have a Constants folder which contains global.properties where we are passing the base URI or token in form of key value pair 
+The Constants folder also contains a java file which have the paths of excel,CSV file 
+
+
+In Our Project We have an Option to Pass payload from POJO class ,also we have an option to fetch data from excel sheet as also from the Database 
+
+We have a TestRunner.java where we have put the configuration to execute our test scripts 
+
+In Our Framework we also have the capability to generate Cucumber and Spark Extent report which is present under target folder
+
+
+
+
+
